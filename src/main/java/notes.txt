@@ -1,0 +1,15 @@
+A Program to demonstrate the use of @RequestMapping annotation attributes params, headers:
+Programs:
+* AppConfig.java
+* AppInit.java
+* ApplicationController.java
+Notes:
+* @RequestMapping annotation accept eight attributes those are name, value, path, method, params, headers, consumes, produces
+* The params attribute is mainly used for narrowing the primary mapping.
+* This params attribute can accepts array of String values, it can be supported at class level as well as method level also.
+* If how many params is defined at method level then that many params have to pass otherwise handler method will not invoked.
+* If how many params is defined at class level those are inherits to method level also.
+* The headers attribute is also used for narrowing the primary mapping.
+* This headers attribute can accepts array of String values, it can be supported at class level as well as method level also.
+* If how many headers is defined at method level then that many headrs have to pass otherwise handler method will not invoked.
+* If how many headers is defined at class level those are inherits to method level also.
